@@ -17,37 +17,39 @@
         <h2>This is not a real online serivce yet! You know you want to grow your business, and brand new polished hand coded website is just what you need to help meet your goals!<br>Sign up <em>now</em> to get started!</h2>
         <h2>You <em>know</em> you want to.</h2>
       </div>
-      <form action="" method="post">
-        <h2>Let's do this!</h2>
-        <div class="form-line">
-          <label for="fname">FIRST NAME</label>
-          <input type="text" id="fname" name="fname">
-        </div>
-        <div class="form-line">
-          <label for="lname">LAST NAME</label>
-          <input type="text" id="lname" name="lname">
-        </div>
-        <div class="form-line">
-          <label for="email">EMAIL</label>
-          <input type="email" id="email" name="email">
-        </div>
-        <div class="form-line">
-          <label for="phone">PHONE NUMBER</label>
-          <input type="text" id="phone" name="phone" >
-        </div>
-        <div class="form-line">
-          <label for="password">PASSWORD</label>
-          <input type="text" id="password" name="password">
-        </div>
-        <div class="form-line">
-          <label for="confirm"> CONFIRM PASSWORD</label>
-          <input type="text" id="confirm" name="confirm">
-        </div>
-        <div class="submit">
+        <form action="" method="post" id="sign-up">
+          <h2>Let's do this!</h2>
+          <div class="sign-up">
+            <div class="form-line">
+              <label for="fname">FIRST NAME</label>
+              <input type="text" id="fname" name="fname">
+            </div>
+            <div class="form-line">
+              <label for="lname">LAST NAME</label>
+              <input type="text" id="lname" name="lname">
+            </div>
+            <div class="form-line">
+              <label for="email">EMAIL</label>
+              <input type="email" id="email" name="email">
+            </div>
+            <div class="form-line">
+              <label for="phone">PHONE NUMBER</label>
+              <input type="text" id="phone" name="phone" placeholder="xxx-xxx-xxxx">
+            </div>
+            <div class="form-line">
+              <label for="password">PASSWORD</label>
+              <input type="text" id="password" name="password" required>
+            </div>
+            <div class="form-line">
+              <label for="confirm"> CONFIRM PASSWORD</label>
+              <input type="text" id="confirm" name="confirm" required>
+            </div>
+          </div>
+        </form>
+        <div class="submit" form="sign-up">
           <button type="submit">Create Account</button>
-          <p>Already have an account? <a href="url">Log in</a></p>
         </div>
-      </form>
+      <p>Already have an account? <a href="url">Log in</a></p>
     </div>
   </body>
 </html>
