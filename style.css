@@ -5,4 +5,16 @@
 
 header {
     font-family: norse-bold;
+    background-image: url("./images/clement-m-igX2deuD9lc-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    width: 100px;
+    height:auto;
+}
+
+body {
+    
 }
