@@ -11,6 +11,8 @@ body {
     display: flex;
     flex-direction: row;
     align-items: stretch;
+    justify-content: center;
+    background-color: black;
     margin: 0;
 }
 
@@ -19,7 +21,8 @@ header {
     background-image: url("./images/clement-m-igX2deuD9lc-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 40%;
+    width: 30%;
+    max-width: 550px;
     display: flex;
     align-items: start;
     justify-content: center;
@@ -50,13 +53,77 @@ h1 {
 }
 
 .content {
-    width: 60%;
+    width: 70%;
+    max-width: 800px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #F6F7F6;
 }
 
-.hero {
-    margin-bottom: 20px;
-    background-color: #F6F7F6;
+.hero, form, .submit, p {
+    padding: 25px 50px;
+}
+
+.sign-up {
+    max-width: 500px;
+}
+
+form {
+    background-color: white;
+    box-shadow: #e4e4e4 1px 5px 5px;    
+    
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-line {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    font-size: 15px;
+}
+
+label {
+    padding-bottom: 2px;
+}
+
+input {
+    border: 1px solid gray;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid blue;
+    box-shadow: #e4e4e4 1px 5px 5px;
+}
+
+input[type="text"]:invalid {
+    border: 1px solid red;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #063925;
+    color: white;
+}
+
+p {
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+a {
+    color:#063925;
 }
